@@ -68,6 +68,7 @@
 import 'package:flutter/material.dart';
 
 import 'constants.dart';
+import 'dart:html' as html;
 
 class CustomAppBar extends StatefulWidget {
   const CustomAppBar({Key? key}) : super(key: key);
@@ -101,7 +102,11 @@ class _CustomAppBarState extends State<CustomAppBar> {
           Row(
             children: [
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  html.window.open(
+                      "https://drive.google.com/file/d/1It9N7XOyuuvrvjg4-fmZdkh3macB9Wir/view?usp=sharing",
+                      "_blanck");
+                },
                 child: const Text(
                   "Resume",
                   style: TextStyle(
@@ -115,7 +120,10 @@ class _CustomAppBarState extends State<CustomAppBar> {
                 width: 20,
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  html.window
+                      .open("https://www.krrathor226@gmail.com", "_blanck");
+                },
                 child: const Text(
                   "Contact",
                   style: TextStyle(
