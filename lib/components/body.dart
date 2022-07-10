@@ -116,7 +116,7 @@ class Body extends StatelessWidget {
                     portfolio: 'Discord',
                     press: () {
                       html.window.open(
-                          "https://www.linkedin.com/in/kuldeep-rathor/",
+                          "https://discordapp.com/users/6005/",
                           "_blanck");
                     },
                   ),
