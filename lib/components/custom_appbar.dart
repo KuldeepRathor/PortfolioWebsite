@@ -122,7 +122,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
               TextButton(
                 onPressed: () {
                   html.window
-                      .open("https://www.krrathor226@gmail.com", "_blanck");
+                      .open("https://linktr.ee/kuldeep_rathor", "_blanck");
                 },
                 child: const Text(
                   "Contact",
